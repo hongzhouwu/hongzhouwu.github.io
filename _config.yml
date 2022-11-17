@@ -4,7 +4,7 @@ title: "Memoirs"
 description: "I will take you on the fabulous world of exploration. Travel, culture, lifestyle. Eat, Pray, Love!"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
-baseurl: /jekyll-theme-memoirs
+baseurl: https://hongzhouwu.github.io
 google_analytics: 'UA-xxxxxxxx-1'
 disqus: 'demowebsite'
 mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
@@ -14,6 +14,15 @@ email: wowthemesnet@gmail.com
 
 # Authors
 authors:
+  hzwu:
+    name: Hzwu
+    display_name: Hzwu    
+    avatar: 'assets/images/22.png'
+    email: w1047550268@gmail.com
+    web: https://www.wowthemes.net
+    twitter: https://twitter.com/wowthemesnet
+    description: " The one who wants to photograph and document life."
+  
   sal:
     name: Sal
     display_name: Sal
@@ -21,15 +30,7 @@ authors:
     email: wowthemesnet@gmail.com
     web: https://www.wowthemes.net/donate/
     twitter: https://twitter.com/wowthemesnet
-    description: "Author of Memoirs, a Bootstrap Medium styled template available for Jekyll. You are currently previewing Jekyll template demo."
-  john:
-    name: John
-    display_name: John    
-    avatar: 'assets/images/avatar.png'
-    email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net
-    twitter: https://twitter.com/wowthemesnet
-    description: "Write a short description of the author here. You are currently previewing Memoirs demo, a Jekyll template compatible with Github pages."
+    description: "a Bootstrap Medium styled template available for Jekyll. You are currently previewing Jekyll template demo."
 
 # Plugins
 plugins:
@@ -57,7 +58,7 @@ highlighter: none
 markdown: kramdown
 kramdown:
    syntax_highlighter_opts:
-      disable : true
+      disable : ture
 
 
 
@@ -65,16 +66,3 @@ kramdown:
 adsense: "disabled"
 adsense-data-ad-client: "ca-pub-3412143450191416"
 adsense-data-ad-slot: "1363087678"
-
-# Lazy Images ("enabled" or "disabled")
-lazyimages: "disabled"
-
-# Post Author Box ("enabled" or "disabled")
-authorbox: "enabled"
-
-# Sass
-sass:
-  sass_dir: _sass
-  style: compressed
-
-exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
