@@ -19,4 +19,6 @@ group :jekyll_plugins do
     gem 'bootstrap', '~> 4.4.1'
     gem 'kramdown'
     gem 'rouge'
+	gem 'pager', '~> 1.0', '>= 1.0.1'
+	gem 'pagination', '~> 0.3.3'
 end
