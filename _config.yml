@@ -10,7 +10,7 @@ disqus: 'demowebsite'
 mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 include: ["_pages"]
 
-email: wowthemesnet@gmail.com
+email: w1047550268@gmail.com
 
 # Authors
 authors:
@@ -61,7 +61,7 @@ kramdown:
    syntax_highlighter_opts:
       disable : ture
 
-
+comment: true
 
 # Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
 adsense: "disabled"
