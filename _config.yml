@@ -61,7 +61,7 @@ kramdown:
    syntax_highlighter_opts:
       disable : ture
 
-comment: true
+comments: true
 
 # Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
 adsense: "disabled"
